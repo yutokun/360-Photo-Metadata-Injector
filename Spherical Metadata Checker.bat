@@ -10,7 +10,7 @@ if xx%1 == xx (
 	echo この画像の360度認識状況は下記のとおりです。
 	echo %1
 	echo;
-	exiftool -ProjectionType -UsePanoramaViewer %1
+	exiftool -ProjectionType -UsePanoramaViewer -FullPanoHeightPixels -FullPanoWidthPixels -CroppedAreaImageHeightPixels -CroppedAreaImageWidthPixels %1
 )
 
 echo;

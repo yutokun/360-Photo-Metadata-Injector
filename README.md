@@ -10,10 +10,14 @@ Google フォトや LINE は360度表示に対応していますが、**メタ�
 
 `Spherical Metadata Checker.bat` に画像データをドロップすると、**メタデータの状況を表示します。**
 
-## 操作される内容
+## 操作される項目
 以下のメタデータが操作されます。
 - Projection Type
 - Use Panorama View
+- Full Pano Height Pixels
+- Full Pano Width Pixels
+- Cropped Area Image Height Pixels
+- Cropped Area Image Width Pixels
 
 ## 同梱ライブラリ
 超感謝
